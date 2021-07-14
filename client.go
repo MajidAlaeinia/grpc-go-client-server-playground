@@ -21,6 +21,7 @@ func main() {
 
 	message := chat.Message{
 		Body: "Hello from the client!",
+		Id:   20,
 	}
 
 	response, err := c.SayHello(context.Background(), &message)
