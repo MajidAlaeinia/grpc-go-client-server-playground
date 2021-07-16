@@ -1,4 +1,4 @@
-# Go GRPC Client Server Playground
+# Go gRPC Client Server Playground
 
 1. 
 ```shell
