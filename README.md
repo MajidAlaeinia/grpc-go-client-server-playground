@@ -14,3 +14,12 @@ go mod vendor
 ```shell
 protoc --go_out=plugins=grpc:chat chat.proto
 ```
+4.
+```shell
+go run server.go
+```
+
+5.
+```shell
+go run client.go
+```
